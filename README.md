@@ -1,1 +1,5 @@
 # pig-dice-game
+
+## Installation
+
+## 
