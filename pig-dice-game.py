@@ -7,11 +7,10 @@ def roll(): #주사위 돌리기
 
 
 def roll_and_back():
-  
-  currentscore = 0 #현재 판의 점수 
+  currentscore = 0 #현재 판의 점수
   choice = "y"  #게임을 계속 하겠다
   while choice == 'y':#플레이어의 선택이 게임을 계속하겠다고하면
-    roll_num = roll() #주사위를 돌림 
+    roll_num = roll() #주사위를 돌림
 
     if roll_num == 1 :#주사위가 1이 나오면
       print('숫자 1이 나왔습니다.')
