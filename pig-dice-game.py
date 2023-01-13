@@ -6,7 +6,7 @@ def roll(): #주사위 돌리기
     return current_dice   #돌렸을 때 나온 주사위 수를 반환 
 
 
-def player():
+def roll_and_back():
   
   currentscore = 0 #현재 판의 점수 
   choice = "y"  #게임을 계속 하겠다
